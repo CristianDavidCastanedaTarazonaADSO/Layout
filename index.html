@@ -4,12 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Grid Layout  - Computador</title>
+    <title>Grid Layout - Computador</title>
 </head>
-<body class="Layout">
-    <header class="layout__header"></header>
-    <nav class="layout__nav"></nav>
-    <main class="layout__main"></main>
-    <aside class="layout__aside"></aside>
+<body class="container">
+    <header class="container__header">
+        <div class="header_div">
+            <div class="header__img">
+                <img src="img/Logo.png" class="logo">
+            </div>
+            
+            <div class="header__search">
+                <input type="text" placeholder="Search..." class="search-input">
+                <i class="bi bi-search"></i>
+            </div>
+        </div>
+        
+        <div class="auth-buttons">
+            <button class="login">Log In</button>
+            <button class="register">Create account</button>
+        </div>
+
+    </header>
+
+
+    <nav class="container__nav">
+
+        <nav class="navbar">
+            <ul>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>Home</span>
+                </li>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>Podcasts</span>
+                </li>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>Videos</span>
+                </li>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>FAQ</span>
+                </li>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>Tags</span>
+                </li>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>Avertise on DEV</span>
+                </li>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>About</span>
+                </li>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>Contact</span>
+                </li>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>Guides</span>
+                </li>
+                <li class="navbar__item">
+                    <i class="bi bi-house"></i>
+                    <span>Software comparisons</span>
+                </li>
+            </ul>
+            <h2>Other</h2>
+            <ul>
+                <li>
+                    <li class="navbar__item">
+                        <i class="bi bi-house"></i>
+                        <span>Code of Conduct</span>
+                    </li>
+                    <li class="navbar__item">
+                        <i class="bi bi-house"></i> 
+                        <span>Privacy Policy</span>
+                    </li>
+                    <li class="navbar__item">
+                        <i class="bi bi-house"></i>
+                        <span>Terms of use</span>
+                    </li>
+                </li>
+            </ul>
+        </nav>        
+
+    </nav>
+
+
+    <main class="container__main"></main>
+    <aside class="container__aside"></aside>
 </body>
 </html>

@@ -148,9 +148,6 @@
 
 
 
- 
-
-
 /* Estilo para móviles */
 @media only screen and (max-width: 600px) {
     .container {
@@ -161,7 +158,7 @@
         grid-template-rows: 80px 80px 1fr;
         grid-template-columns: 100%;
     }
-    
+                
 }
 
 /* Estilo para tabletas */

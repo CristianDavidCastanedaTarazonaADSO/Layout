@@ -11,7 +11,7 @@
         "nav"
         "main";
     grid-template-rows: 80px 80px 1fr;
-}
+}   
 
 .layout__header {
     grid-area: header;
